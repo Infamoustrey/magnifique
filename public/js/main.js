@@ -602,35 +602,6 @@ function _typeof(obj) {
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/extends.js":
-/*!********************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/extends.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _extends() {
-  module.exports = _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];
-
-      for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }
-
-    return target;
-  };
-
-  return _extends.apply(this, arguments);
-}
-
-module.exports = _extends;
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime/helpers/inheritsLoose.js":
 /*!**************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/inheritsLoose.js ***!
@@ -648,20 +619,846 @@ module.exports = _inheritsLoose;
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
-  \**********************************************************************/
+/***/ "./node_modules/@iconify/icons-mdi/fast-forward.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/fast-forward.js ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    "default": obj
-  };
-}
+var data = {
+	"body": "<path d=\"M13 6v12l8.5-6M4 18l8.5-6L4 6v12z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
 
-module.exports = _interopRequireDefault;
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/icons-mdi/pause-circle.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/pause-circle.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var data = {
+	"body": "<path d=\"M15 16h-2V8h2m-4 8H9V8h2m1-6A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/icons-mdi/play-circle.js":
+/*!********************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/play-circle.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var data = {
+	"body": "<path d=\"M10 16.5v-9l6 4.5M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/icons-mdi/repeat-off.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/repeat-off.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var data = {
+	"body": "<path d=\"M2 5.27L3.28 4L20 20.72L18.73 22l-3-3H7v3l-4-4l4-4v3h6.73L7 10.27V11H5V8.27l-3-3M17 13h2v4.18l-2-2V13m0-8V2l4 4l-4 4V7H8.82l-2-2H17z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/icons-mdi/repeat.js":
+/*!***************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/repeat.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var data = {
+	"body": "<path d=\"M17 17H7v-3l-4 4l4 4v-3h12v-6h-2M7 7h10v3l4-4l-4-4v3H5v6h2V7z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/icons-mdi/rewind.js":
+/*!***************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/rewind.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var data = {
+	"body": "<path d=\"M11.5 12l8.5 6V6m-9 12V6l-8.5 6l8.5 6z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/icons-mdi/skip-next.js":
+/*!******************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/skip-next.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var data = {
+	"body": "<path d=\"M16 18h2V6h-2M6 18l8.5-6L6 6v12z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/icons-mdi/skip-previous.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/skip-previous.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var data = {
+	"body": "<path d=\"M6 18V6h2v12H6m3.5-6L18 6v12l-8.5-6z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/icons-mdi/volume-high.js":
+/*!********************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/volume-high.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var data = {
+	"body": "<path d=\"M14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.84-5 6.7v2.07c4-.91 7-4.49 7-8.77c0-4.28-3-7.86-7-8.77M16.5 12c0-1.77-1-3.29-2.5-4.03V16c1.5-.71 2.5-2.24 2.5-4M3 9v6h4l5 5V4L7 9H3z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/icons-mdi/volume-mute.js":
+/*!********************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/volume-mute.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var data = {
+	"body": "<path d=\"M3 9h4l5-5v16l-5-5H3V9m13.59 3L14 9.41L15.41 8L18 10.59L20.59 8L22 9.41L19.41 12L22 14.59L20.59 16L18 13.41L15.41 16L14 14.59L16.59 12z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/react/dist/icon.js":
+/*!**************************************************!*\
+  !*** ./node_modules/@iconify/react/dist/icon.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = exports.InlineIcon = exports.Icon = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+/**
+ * Unique id counter
+ *
+ * @type {number}
+ */
+var idCounter = 0;
+/**
+ * Regex used to split dimensions
+ *
+ * @type {RegExp}
+ * @private
+ */
+
+var unitsSplit = /(-?[0-9.]*[0-9]+[0-9.]*)/g;
+var unitsTest = /^-?[0-9.]*[0-9]+[0-9.]*$/g;
+/**
+ * Attributes used for icon
+ *
+ * @type {string[]}
+ */
+
+var iconAttributes = ['width', 'height', 'inline', 'hFlip', 'vFlip', 'flip', 'rotate', 'align', 'color', 'box'];
+/**
+ * Default attribute values
+ *
+ * @type {object}
+ */
+
+var defaultAttributes = {
+  left: 0,
+  top: 0,
+  width: 16,
+  height: 16,
+  rotate: 0,
+  hFlip: false,
+  vFlip: false
+};
+/**
+ * Add missing properties to icon
+ *
+ * Important: in PHP version of this library this function is part of Collection class: Collection::addMissingAttributes()
+ *
+ * JavaScript version uses separate file so this function could be used in React and other components without loading
+ * entire Collection class.
+ *
+ * @param {object} data
+ * @return {object}
+ */
+
+function normalize(data) {
+  var item = Object.assign(Object.create(null), defaultAttributes, data);
+
+  if (item.inlineTop === void 0) {
+    item.inlineTop = item.top;
+  }
+
+  if (item.inlineHeight === void 0) {
+    item.inlineHeight = item.height;
+  }
+
+  if (item.verticalAlign === void 0) {
+    // -0.143 if icon is designed for 14px height,
+    // otherwise assume icon is designed for 16px height
+    item.verticalAlign = item.height % 7 === 0 && item.height % 8 !== 0 ? -0.143 : -0.125;
+  }
+
+  return item;
+}
+/**
+ * Get preserveAspectRatio attribute value
+ *
+ * @param {object} align
+ * @return {string}
+ * @private
+ */
+
+
+function getAlignment(align) {
+  var result;
+
+  switch (align.horizontal) {
+    case 'left':
+      result = 'xMin';
+      break;
+
+    case 'right':
+      result = 'xMax';
+      break;
+
+    default:
+      result = 'xMid';
+  }
+
+  switch (align.vertical) {
+    case 'top':
+      result += 'YMin';
+      break;
+
+    case 'bottom':
+      result += 'YMax';
+      break;
+
+    default:
+      result += 'YMid';
+  }
+
+  result += align.slice ? ' slice' : ' meet';
+  return result;
+}
+/**
+ * SVG class
+ *
+ * @see @iconify/json-tools/src/svg.js
+ */
+
+
+var SVG =
+/*#__PURE__*/
+function () {
+  /**
+   * Constructor
+   *
+   * @param icon Icon data
+   *  Use Collection.getIconData() to retrieve icon data
+   */
+  function SVG(icon) {
+    _classCallCheck(this, SVG);
+
+    this._item = icon;
+  }
+  /**
+   * Get SVG attributes
+   *
+   * @param {object} props Custom properties (same as query string in Iconify API)
+   * @returns {string}
+   */
+
+
+  _createClass(SVG, [{
+    key: "getAttributes",
+    value: function getAttributes(props) {
+      var item = this._item;
+
+      if (_typeof(props) !== 'object') {
+        props = Object.create(null);
+      } // Set data
+
+
+      var align = {
+        horizontal: 'center',
+        vertical: 'middle',
+        slice: false
+      };
+      var transform = {
+        rotate: item.rotate,
+        hFlip: item.hFlip,
+        vFlip: item.vFlip
+      };
+      var style = Object.create(null);
+      var attributes = Object.create(null); // Get width/height
+
+      var inline = props.inline === true || props.inline === 'true' || props.inline === '1';
+      var box = {
+        left: item.left,
+        top: inline ? item.inlineTop : item.top,
+        width: item.width,
+        height: inline ? item.inlineHeight : item.height
+      }; // Transformations
+
+      ['hFlip', 'vFlip'].forEach(function (key) {
+        if (props[key] !== void 0 && (props[key] === true || props[key] === 'true' || props[key] === '1')) {
+          transform[key] = !transform[key];
+        }
+      });
+
+      if (props.flip !== void 0) {
+        props.flip.toLowerCase().split(/[\s,]+/).forEach(function (value) {
+          switch (value) {
+            case 'horizontal':
+              transform.hFlip = !transform.hFlip;
+              break;
+
+            case 'vertical':
+              transform.vFlip = !transform.vFlip;
+          }
+        });
+      }
+
+      if (props.rotate !== void 0) {
+        var value = props.rotate;
+
+        if (typeof value === 'number') {
+          transform.rotate += value;
+        } else if (typeof value === 'string') {
+          var units = value.replace(/^-?[0-9.]*/, '');
+
+          if (units === '') {
+            value = parseInt(value);
+
+            if (!isNaN(value)) {
+              transform.rotate += value;
+            }
+          } else if (units !== value) {
+            var split = false;
+
+            switch (units) {
+              case '%':
+                // 25% -> 1, 50% -> 2, ...
+                split = 25;
+                break;
+
+              case 'deg':
+                // 90deg -> 1, 180deg -> 2, ...
+                split = 90;
+            }
+
+            if (split) {
+              value = parseInt(value.slice(0, value.length - units.length));
+
+              if (!isNaN(value)) {
+                transform.rotate += Math.round(value / split);
+              }
+            }
+          }
+        }
+      } // Apply transformations to box
+
+
+      var transformations = [],
+          tempValue;
+
+      if (transform.hFlip) {
+        if (transform.vFlip) {
+          transform.rotate += 2;
+        } else {
+          // Horizontal flip
+          transformations.push('translate(' + (box.width + box.left) + ' ' + (0 - box.top) + ')');
+          transformations.push('scale(-1 1)');
+          box.top = box.left = 0;
+        }
+      } else if (transform.vFlip) {
+        // Vertical flip
+        transformations.push('translate(' + (0 - box.left) + ' ' + (box.height + box.top) + ')');
+        transformations.push('scale(1 -1)');
+        box.top = box.left = 0;
+      }
+
+      switch (transform.rotate % 4) {
+        case 1:
+          // 90deg
+          tempValue = box.height / 2 + box.top;
+          transformations.unshift('rotate(90 ' + tempValue + ' ' + tempValue + ')'); // swap width/height and x/y
+
+          if (box.left !== 0 || box.top !== 0) {
+            tempValue = box.left;
+            box.left = box.top;
+            box.top = tempValue;
+          }
+
+          if (box.width !== box.height) {
+            tempValue = box.width;
+            box.width = box.height;
+            box.height = tempValue;
+          }
+
+          break;
+
+        case 2:
+          // 180deg
+          transformations.unshift('rotate(180 ' + (box.width / 2 + box.left) + ' ' + (box.height / 2 + box.top) + ')');
+          break;
+
+        case 3:
+          // 270deg
+          tempValue = box.width / 2 + box.left;
+          transformations.unshift('rotate(-90 ' + tempValue + ' ' + tempValue + ')'); // swap width/height and x/y
+
+          if (box.left !== 0 || box.top !== 0) {
+            tempValue = box.left;
+            box.left = box.top;
+            box.top = tempValue;
+          }
+
+          if (box.width !== box.height) {
+            tempValue = box.width;
+            box.width = box.height;
+            box.height = tempValue;
+          }
+
+          break;
+      } // Calculate dimensions
+      // Values for width/height: null = default, 'auto' = from svg, false = do not set
+      // Default: if both values aren't set, height defaults to '1em', width is calculated from height
+
+
+      var customWidth = props.width ? props.width : null;
+      var customHeight = props.height ? props.height : null;
+      var width, height;
+
+      if (customWidth === null && customHeight === null) {
+        customHeight = '1em';
+      }
+
+      if (customWidth !== null && customHeight !== null) {
+        width = customWidth;
+        height = customHeight;
+      } else if (customWidth !== null) {
+        width = customWidth;
+        height = SVG.calculateDimension(width, box.height / box.width);
+      } else {
+        height = customHeight;
+        width = SVG.calculateDimension(height, box.width / box.height);
+      }
+
+      if (width !== false) {
+        attributes.width = width === 'auto' ? box.width : width;
+      }
+
+      if (height !== false) {
+        attributes.height = height === 'auto' ? box.height : height;
+      } // Add vertical-align for inline icon
+
+
+      if (inline && item.verticalAlign !== 0) {
+        style['vertical-align'] = item.verticalAlign + 'em';
+      } // Check custom alignment
+
+
+      if (props.align !== void 0) {
+        props.align.toLowerCase().split(/[\s,]+/).forEach(function (value) {
+          switch (value) {
+            case 'left':
+            case 'right':
+            case 'center':
+              align.horizontal = value;
+              break;
+
+            case 'top':
+            case 'bottom':
+            case 'middle':
+              align.vertical = value;
+              break;
+
+            case 'crop':
+              align.slice = true;
+              break;
+
+            case 'meet':
+              align.slice = false;
+          }
+        });
+      } // Generate viewBox and preserveAspectRatio attributes
+
+
+      attributes.preserveAspectRatio = getAlignment(align);
+      attributes.viewBox = box.left + ' ' + box.top + ' ' + box.width + ' ' + box.height; // Generate body
+
+      var body = SVG.replaceIDs(item.body);
+
+      if (props.color !== void 0) {
+        body = body.replace(/currentColor/g, props.color);
+      }
+
+      if (transformations.length) {
+        body = '<g transform="' + transformations.join(' ') + '">' + body + '</g>';
+      }
+
+      if (props.box === true || props.box === 'true' || props.box === '1') {
+        // Add transparent bounding box
+        body += '<rect x="' + box.left + '" y="' + box.top + '" width="' + box.width + '" height="' + box.height + '" fill="rgba(0, 0, 0, 0)" />';
+      }
+
+      return {
+        attributes: attributes,
+        body: body,
+        style: style
+      };
+    }
+    /**
+     * Generate SVG
+     *
+     * @param {object} props Custom properties (same as query string in Iconify API)
+     * @param {boolean} [addExtra] True if extra attributes should be added to SVG.
+     *  Due to lack of functions in JavaScript for escaping attributes, it is your job to make sure key and value are both properly escaped. Default value is false.
+     * @returns {string}
+     */
+
+  }, {
+    key: "getSVG",
+    value: function getSVG(props, addExtra) {
+      var attributes = SVG.splitAttributes(props),
+          data = this.getAttributes(attributes.icon);
+      var svg = '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"'; // Add extra attributes - assume that their names and values are escaped
+
+      if (addExtra) {
+        Object.keys(attributes.node).forEach(function (attr) {
+          svg += ' ' + attr + '="' + attributes.node[attr] + '"';
+        });
+      } // Add SVG attributes
+
+
+      Object.keys(data.attributes).forEach(function (attr) {
+        svg += ' ' + attr + '="' + data.attributes[attr] + '"';
+      }); // Add style with 360deg transformation to style to prevent subpixel rendering bug
+
+      svg += ' style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);';
+      Object.keys(data.style).forEach(function (attr) {
+        svg += ' ' + attr + ': ' + data.style[attr] + ';';
+      });
+
+      if (props && props.style !== void 0) {
+        svg += props.style;
+      }
+
+      svg += '">';
+      svg += data.body + '</svg>';
+      return svg;
+    }
+    /**
+     * Split attributes
+     *
+     * @param props
+     * @return {{icon: {}, node: {}}}
+     */
+
+  }], [{
+    key: "splitAttributes",
+    value: function splitAttributes(props) {
+      var result = {
+        icon: Object.create(null),
+        node: Object.create(null)
+      };
+      Object.keys(props).forEach(function (name) {
+        result[iconAttributes.indexOf(name) === -1 ? 'node' : 'icon'][name] = props[name];
+      });
+      return result;
+    }
+    /**
+     * Calculate second dimension when only 1 dimension is set
+     *
+     * @param {string|number} size One dimension (such as width)
+     * @param {number} ratio Width/height ratio.
+     *      If size == width, ratio = height/width
+     *      If size == height, ratio = width/height
+     * @param {number} [precision] Floating number precision in result to minimize output. Default = 100
+     * @return {string|number|null} Another dimension, null on error
+     */
+
+  }, {
+    key: "calculateDimension",
+    value: function calculateDimension(size, ratio, precision) {
+      if (ratio === 1) {
+        return size;
+      }
+
+      precision = precision === void 0 ? 100 : precision;
+
+      if (typeof size === 'number') {
+        return Math.ceil(size * ratio * precision) / precision;
+      } // split code into sets of strings and numbers
+
+
+      var split = size.split(unitsSplit);
+
+      if (split === null || !split.length) {
+        return null;
+      }
+
+      var results = [],
+          code = split.shift(),
+          isNumber = unitsTest.test(code),
+          num;
+
+      while (true) {
+        if (isNumber) {
+          num = parseFloat(code);
+
+          if (isNaN(num)) {
+            results.push(code);
+          } else {
+            results.push(Math.ceil(num * ratio * precision) / precision);
+          }
+        } else {
+          results.push(code);
+        } // next
+
+
+        code = split.shift();
+
+        if (code === void 0) {
+          return results.join('');
+        }
+
+        isNumber = !isNumber;
+      }
+    }
+    /**
+     * Replace IDs in SVG output with unique IDs
+     * Fast replacement without parsing XML, assuming commonly used patterns.
+     *
+     * @param {string} body
+     * @return {string}
+     */
+
+  }, {
+    key: "replaceIDs",
+    value: function replaceIDs(body) {
+      var regex = /\sid="(\S+)"/g,
+          ids = [],
+          match,
+          prefix;
+
+      function strReplace(search, replace, subject) {
+        var pos = 0;
+
+        while ((pos = subject.indexOf(search, pos)) !== -1) {
+          subject = subject.slice(0, pos) + replace + subject.slice(pos + search.length);
+          pos += replace.length;
+        }
+
+        return subject;
+      } // Find all IDs
+
+
+      while (match = regex.exec(body)) {
+        ids.push(match[1]);
+      }
+
+      if (!ids.length) {
+        return body;
+      }
+
+      prefix = 'IconifyId-' + Date.now().toString(16) + '-' + (Math.random() * 0x1000000 | 0).toString(16) + '-'; // Replace with unique ids
+
+      ids.forEach(function (id) {
+        var newID = prefix + idCounter;
+        idCounter++;
+        body = strReplace('="' + id + '"', '="' + newID + '"', body);
+        body = strReplace('="#' + id + '"', '="#' + newID + '"', body);
+        body = strReplace('(#' + id + ')', '(#' + newID + ')', body);
+      });
+      return body;
+    }
+  }]);
+
+  return SVG;
+}();
+/**
+ * Create React component with SVG data
+ *
+ * @param {object} props
+ * @param {boolean} inline
+ * @return {null|React.Component}
+ */
+
+
+function component(props, inline) {
+  if (_typeof(props.icon) !== 'object') {
+    return null;
+  } // Split properties into SVG properties and icon properties
+
+
+  var split = SVG.splitAttributes(props),
+      iconProps = split.icon,
+      customAttributes = split.node;
+  delete customAttributes.icon; // Set default inline value
+
+  if (iconProps.inline === void 0) {
+    iconProps.inline = inline;
+  } // Get SVG data
+
+
+  var svg = new SVG(normalize(props.icon));
+  var iconData = svg.getAttributes(iconProps); // Set style
+
+  var style = {
+    transform: 'rotate(360deg)'
+  };
+
+  if (iconData.style['vertical-align'] !== void 0) {
+    style.verticalAlign = iconData.style['vertical-align'];
+  }
+
+  if (props.style !== void 0) {
+    style = Object.assign(style, props.style);
+  } // Generate element attributes
+
+
+  var attributes = Object.assign({
+    xmlns: 'http://www.w3.org/2000/svg',
+    focusable: false,
+    style: style
+  }, customAttributes, iconData.attributes);
+  attributes.dangerouslySetInnerHTML = {
+    __html: iconData.body
+  }; // Generate SVG
+
+  return _react["default"].createElement('svg', attributes, null);
+}
+/**
+ * Icon without vertical alignment
+ *
+ * @param {object} props
+ * @return {React.Component}
+ * @constructor
+ */
+
+
+var Icon = function Icon(props) {
+  return component(props, false);
+};
+/**
+ * Icon with vertical alignment
+ *
+ * @param {object} props
+ * @return {React.Component}
+ * @constructor
+ */
+
+
+exports.Icon = Icon;
+
+var InlineIcon = function InlineIcon(props) {
+  return component(props, true);
+};
+/**
+ * Default export
+ */
+
+
+exports.InlineIcon = InlineIcon;
+var _default = Icon;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -35443,75 +36240,6 @@ var withWidth = function withWidth() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (withWidth);
-
-/***/ }),
-
-/***/ "./node_modules/@material-ui/icons/Menu.js":
-/*!*************************************************!*\
-  !*** ./node_modules/@material-ui/icons/Menu.js ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/createSvgIcon */ "./node_modules/@material-ui/icons/utils/createSvgIcon.js"));
-
-var _default = (0, _createSvgIcon.default)(_react.default.createElement("path", {
-  d: "M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-}), 'Menu');
-
-exports.default = _default;
-
-/***/ }),
-
-/***/ "./node_modules/@material-ui/icons/utils/createSvgIcon.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/@material-ui/icons/utils/createSvgIcon.js ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = createSvgIcon;
-
-var _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/extends */ "./node_modules/@babel/runtime/helpers/extends.js"));
-
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var _SvgIcon = _interopRequireDefault(__webpack_require__(/*! @material-ui/core/SvgIcon */ "./node_modules/@material-ui/core/esm/SvgIcon/index.js"));
-
-function createSvgIcon(path, displayName) {
-  var Component = _react.default.memo(_react.default.forwardRef(function (props, ref) {
-    return _react.default.createElement(_SvgIcon.default, (0, _extends2.default)({
-      ref: ref
-    }, props), path);
-  }));
-
-  if (true) {
-    Component.displayName = "".concat(displayName, "Icon");
-  }
-
-  Component.muiName = _SvgIcon.default.muiName;
-  return Component;
-}
 
 /***/ }),
 
@@ -75918,6 +76646,694 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/react-h5-audio-player/es/index.js":
+/*!********************************************************!*\
+  !*** ./node_modules/react-h5-audio-player/es/index.js ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _iconify_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @iconify/react */ "./node_modules/@iconify/react/dist/icon.js");
+/* harmony import */ var _iconify_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_iconify_react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _iconify_icons_mdi_play_circle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @iconify/icons-mdi/play-circle */ "./node_modules/@iconify/icons-mdi/play-circle.js");
+/* harmony import */ var _iconify_icons_mdi_play_circle__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_play_circle__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _iconify_icons_mdi_pause_circle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @iconify/icons-mdi/pause-circle */ "./node_modules/@iconify/icons-mdi/pause-circle.js");
+/* harmony import */ var _iconify_icons_mdi_pause_circle__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_pause_circle__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _iconify_icons_mdi_skip_previous__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @iconify/icons-mdi/skip-previous */ "./node_modules/@iconify/icons-mdi/skip-previous.js");
+/* harmony import */ var _iconify_icons_mdi_skip_previous__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_skip_previous__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _iconify_icons_mdi_skip_next__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @iconify/icons-mdi/skip-next */ "./node_modules/@iconify/icons-mdi/skip-next.js");
+/* harmony import */ var _iconify_icons_mdi_skip_next__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_skip_next__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _iconify_icons_mdi_fast_forward__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @iconify/icons-mdi/fast-forward */ "./node_modules/@iconify/icons-mdi/fast-forward.js");
+/* harmony import */ var _iconify_icons_mdi_fast_forward__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_fast_forward__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _iconify_icons_mdi_rewind__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @iconify/icons-mdi/rewind */ "./node_modules/@iconify/icons-mdi/rewind.js");
+/* harmony import */ var _iconify_icons_mdi_rewind__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_rewind__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _iconify_icons_mdi_volume_high__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @iconify/icons-mdi/volume-high */ "./node_modules/@iconify/icons-mdi/volume-high.js");
+/* harmony import */ var _iconify_icons_mdi_volume_high__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_volume_high__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _iconify_icons_mdi_volume_mute__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @iconify/icons-mdi/volume-mute */ "./node_modules/@iconify/icons-mdi/volume-mute.js");
+/* harmony import */ var _iconify_icons_mdi_volume_mute__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_volume_mute__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _iconify_icons_mdi_repeat__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @iconify/icons-mdi/repeat */ "./node_modules/@iconify/icons-mdi/repeat.js");
+/* harmony import */ var _iconify_icons_mdi_repeat__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_repeat__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _iconify_icons_mdi_repeat_off__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @iconify/icons-mdi/repeat-off */ "./node_modules/@iconify/icons-mdi/repeat-off.js");
+/* harmony import */ var _iconify_icons_mdi_repeat_off__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_repeat_off__WEBPACK_IMPORTED_MODULE_11__);
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class H5AudioPlayer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "state", void 0);
+
+    _defineProperty(this, "audio", void 0);
+
+    _defineProperty(this, "volumeControl", void 0);
+
+    _defineProperty(this, "progressBar", void 0);
+
+    _defineProperty(this, "container", void 0);
+
+    _defineProperty(this, "lastVolume", void 0);
+
+    _defineProperty(this, "timeOnMouseMove", void 0);
+
+    _defineProperty(this, "listenTracker", void 0);
+
+    _defineProperty(this, "togglePlay", e => {
+      e.stopPropagation();
+
+      if (this.audio.paused && this.audio.src) {
+        var audioPromise = this.audio.play();
+        audioPromise.then(null).catch(err => {
+          var {
+            onPlayError
+          } = this.props;
+          onPlayError && onPlayError(new Error(err));
+        });
+      } else if (!this.audio.paused) {
+        this.audio.pause();
+      }
+    });
+
+    _defineProperty(this, "handleClickVolumeButton", () => {
+      if (this.audio.volume > 0) {
+        this.lastVolume = this.audio.volume;
+        this.audio.volume = 0;
+      } else {
+        this.audio.volume = this.lastVolume;
+      }
+
+      this.setState({
+        currentVolumePos: "".concat((this.audio.volume * 100).toFixed(0), "%")
+      });
+    });
+
+    _defineProperty(this, "handleVolumnControlMouseDown", event => {
+      event.stopPropagation();
+      var {
+        currentVolume,
+        currentVolumePos
+      } = this.getCurrentVolume(event.nativeEvent);
+      this.audio.volume = currentVolume;
+      this.setState({
+        isDraggingVolume: true,
+        currentVolumePos
+      });
+
+      if (event.nativeEvent instanceof TouchEvent) {
+        window.addEventListener('touchmove', this.handleWindowMouseOrTouchMove);
+        window.addEventListener('touchend', this.handleWindowMouseOrTouchUp);
+      } else if (event.nativeEvent instanceof MouseEvent) {
+        window.addEventListener('mousemove', this.handleWindowMouseOrTouchMove);
+        window.addEventListener('mouseup', this.handleWindowMouseOrTouchUp);
+      }
+    });
+
+    _defineProperty(this, "handleWindowMouseOrTouchMove", event => {
+      event.preventDefault();
+      event.stopPropagation();
+      var windowSelection = window.getSelection();
+
+      if (windowSelection && windowSelection.type === 'Range') {
+        windowSelection.empty();
+      }
+
+      var {
+        isDraggingVolume,
+        isDraggingProgress
+      } = this.state;
+
+      if (isDraggingVolume) {
+        var {
+          currentVolume,
+          currentVolumePos
+        } = this.getCurrentVolume(event);
+        this.audio.volume = currentVolume;
+        this.setState({
+          currentVolumePos
+        });
+      } else if (isDraggingProgress) {
+        var {
+          currentTime: _currentTime,
+          currentTimePos
+        } = this.getCurrentProgress(event);
+        this.timeOnMouseMove = _currentTime;
+        this.setState({
+          currentTimePos
+        });
+      }
+    });
+
+    _defineProperty(this, "handleWindowMouseOrTouchUp", event => {
+      event.stopPropagation();
+      this.setState(prevState => {
+        if (prevState.isDraggingProgress && isFinite(this.timeOnMouseMove)) {
+          this.audio.currentTime = this.timeOnMouseMove;
+        }
+
+        return {
+          isDraggingVolume: false,
+          isDraggingProgress: false
+        };
+      });
+
+      if (event instanceof TouchEvent) {
+        window.removeEventListener('touchmove', this.handleWindowMouseOrTouchMove);
+        window.removeEventListener('touchend', this.handleWindowMouseOrTouchUp);
+      } else {
+        window.removeEventListener('mousemove', this.handleWindowMouseOrTouchMove);
+        window.removeEventListener('mouseup', this.handleWindowMouseOrTouchUp);
+      }
+    });
+
+    _defineProperty(this, "getCurrentVolume", event => {
+      if (!this.volumeControl) {
+        return {
+          currentVolume: this.audio.volume,
+          currentVolumePos: this.state.currentVolumePos
+        };
+      }
+
+      var volumeBarRect = this.volumeControl.getBoundingClientRect();
+      var maxRelativePos = volumeBarRect.width;
+      var relativePos = H5AudioPlayer.getPosX(event) - volumeBarRect.left;
+      var currentVolume;
+      var currentVolumePos;
+
+      if (relativePos < 0) {
+        currentVolume = 0;
+        currentVolumePos = '0%';
+      } else if (relativePos > volumeBarRect.width) {
+        currentVolume = 1;
+        currentVolumePos = '100%';
+      } else {
+        currentVolume = relativePos / maxRelativePos;
+        currentVolumePos = "".concat(relativePos / maxRelativePos * 100, "%");
+      }
+
+      return {
+        currentVolume,
+        currentVolumePos
+      };
+    });
+
+    _defineProperty(this, "handleMouseDownProgressBar", event => {
+      event.stopPropagation();
+      var isTouch = event.type.startsWith('touch');
+      var {
+        currentTime,
+        currentTimePos
+      } = this.getCurrentProgress(event.nativeEvent);
+
+      if (isFinite(currentTime)) {
+        this.timeOnMouseMove = currentTime;
+        this.setState({
+          isDraggingProgress: true,
+          currentTimePos
+        });
+
+        if (isTouch) {
+          window.addEventListener('touchmove', this.handleWindowMouseOrTouchMove);
+          window.addEventListener('touchend', this.handleWindowMouseOrTouchUp);
+        } else {
+          window.addEventListener('mousemove', this.handleWindowMouseOrTouchMove);
+          window.addEventListener('mouseup', this.handleWindowMouseOrTouchUp);
+        }
+      }
+    });
+
+    _defineProperty(this, "handleClickLoopButton", () => {
+      this.setState(prevState => ({
+        isLoopEnabled: !prevState.isLoopEnabled
+      }));
+    });
+
+    _defineProperty(this, "handleClickRewind", () => {
+      this.setJumpTime(-this.props.progressJumpStep);
+    });
+
+    _defineProperty(this, "handleClickForward", () => {
+      this.setJumpTime(this.props.progressJumpStep);
+    });
+
+    _defineProperty(this, "setJumpTime", time => {
+      var {
+        duration,
+        currentTime: prevTime
+      } = this.audio;
+      if (!isFinite(duration) || !isFinite(prevTime)) return;
+      var currentTime = prevTime + time / 1000;
+
+      if (currentTime < 0) {
+        this.audio.currentTime = 0;
+        currentTime = 0;
+      } else if (currentTime > duration) {
+        this.audio.currentTime = duration;
+        currentTime = duration;
+      } else {
+        this.audio.currentTime = currentTime;
+      }
+
+      this.setState({
+        currentTimePos: "".concat(currentTime / duration * 100, "%")
+      });
+    });
+
+    _defineProperty(this, "setJumpVolume", volume => {
+      var newVolume = this.audio.volume + volume;
+      if (newVolume < 0) newVolume = 0;else if (newVolume > 1) newVolume = 1;
+      this.audio.volume = newVolume;
+      this.setState({
+        currentVolumePos: "".concat((newVolume * 100).toFixed(0), "%")
+      });
+    });
+
+    _defineProperty(this, "getCurrentProgress", event => {
+      if (!this.audio.src || !isFinite(this.audio.currentTime) || !this.progressBar) {
+        return {
+          currentTime: 0,
+          currentTimePos: '0%'
+        };
+      }
+
+      var progressBarRect = this.progressBar.getBoundingClientRect();
+      var maxRelativePos = progressBarRect.width;
+      var relativePos = H5AudioPlayer.getPosX(event) - progressBarRect.left;
+
+      if (relativePos < 0) {
+        relativePos = 0;
+      } else if (relativePos > maxRelativePos) {
+        relativePos = maxRelativePos;
+      }
+
+      var currentTime = this.audio.duration * relativePos / maxRelativePos;
+      return {
+        currentTime,
+        currentTimePos: "".concat((relativePos / maxRelativePos * 100).toFixed(2), "%")
+      };
+    });
+
+    _defineProperty(this, "getDisplayTimeBySeconds", seconds => {
+      if (!isFinite(seconds)) {
+        return '00:00';
+      }
+
+      var addHeadingZero = H5AudioPlayer.addHeadingZero;
+      var min = addHeadingZero(Math.floor(seconds / 60));
+      var sec = addHeadingZero(Math.floor(seconds % 60));
+      return "".concat(min, ":").concat(sec);
+    });
+
+    _defineProperty(this, "setListenTrack", () => {
+      if (!this.listenTracker) {
+        var listenInterval = this.props.listenInterval;
+        this.listenTracker = setInterval(() => {
+          this.props.onListen && this.props.onListen(this.audio.currentTime);
+        }, listenInterval);
+      }
+    });
+
+    _defineProperty(this, "clearListenTrack", () => {
+      if (this.listenTracker) {
+        clearInterval(this.listenTracker);
+        delete this.listenTracker;
+      }
+    });
+
+    _defineProperty(this, "handleKeyDown", e => {
+      switch (e.keyCode) {
+        case 32:
+          if (e.target === this.container || e.target === this.progressBar) {
+            this.togglePlay(e);
+          }
+
+          break;
+
+        case 37:
+          this.handleClickRewind();
+          break;
+
+        case 39:
+          this.handleClickForward();
+          break;
+
+        case 38:
+          this.setJumpVolume(this.props.volumeJumpStep);
+          break;
+
+        case 40:
+          this.setJumpVolume(-this.props.volumeJumpStep);
+          break;
+
+        case 76:
+          this.handleClickLoopButton();
+          break;
+
+        case 77:
+          this.handleClickVolumeButton();
+          break;
+      }
+    });
+
+    var {
+      volume: _volume,
+      muted
+    } = props;
+    this.state = {
+      currentTimePos: '0%',
+      currentVolumePos: muted ? '0%' : "".concat(_volume * 100, "%"),
+      isDraggingProgress: false,
+      isDraggingVolume: false,
+      isPlaying: false,
+      isLoopEnabled: this.props.loop,
+      downloadProgressArr: []
+    };
+    this.audio = new Audio();
+    this.lastVolume = _volume;
+    this.timeOnMouseMove = 0;
+  }
+
+  componentDidMount() {
+    var audio = this.audio;
+
+    if (this.props.muted) {
+      audio.volume = 0;
+    } else {
+      audio.volume = this.lastVolume;
+    }
+
+    audio.addEventListener('error', e => {
+      this.props.onError && this.props.onError(e);
+    });
+    audio.addEventListener('canplay', e => {
+      this.props.onCanPlay && this.props.onCanPlay(e);
+    });
+    audio.addEventListener('canplaythrough', e => {
+      this.props.onCanPlayThrough && this.props.onCanPlayThrough(e);
+    });
+    audio.addEventListener('play', e => {
+      this.setState({
+        isPlaying: true
+      });
+      this.setListenTrack();
+      this.props.onPlay && this.props.onPlay(e);
+    });
+    audio.addEventListener('abort', e => {
+      this.clearListenTrack();
+      var {
+        autoPlayAfterSrcChange
+      } = this.props;
+
+      if (autoPlayAfterSrcChange) {
+        this.audio.play();
+      } else {
+        this.setState({
+          isPlaying: false,
+          currentTimePos: '0%'
+        });
+      }
+
+      this.props.onAbort && this.props.onAbort(e);
+    });
+    audio.addEventListener('ended', e => {
+      this.clearListenTrack();
+      this.props.onEnded && this.props.onEnded(e);
+    });
+    audio.addEventListener('pause', e => {
+      this.clearListenTrack();
+      if (!this.audio) return;
+      this.setState({
+        isPlaying: false
+      });
+      this.props.onPause && this.props.onPause(e);
+    });
+    audio.addEventListener('progress', e => {
+      var audio = e.target;
+      var downloadProgressArr = [];
+
+      for (var i = 0; i < audio.buffered.length; i++) {
+        var bufferedStart = audio.buffered.start(i);
+        var bufferedEnd = audio.buffered.end(i);
+        downloadProgressArr.push({
+          left: "".concat(Math.round(100 / audio.duration * bufferedStart) || 0, "%"),
+          width: "".concat(Math.round(100 / audio.duration * (bufferedEnd - bufferedStart)) || 0, "%")
+        });
+      }
+
+      this.setState({
+        downloadProgressArr
+      });
+    });
+    audio.addEventListener('timeupdate', H5AudioPlayer.throttle(e => {
+      var {
+        isDraggingProgress
+      } = this.state;
+      var audio = e.target;
+      if (isDraggingProgress) return;
+      var {
+        duration,
+        currentTime
+      } = audio;
+      this.setState({
+        currentTimePos: "".concat((currentTime / duration * 100 || 0).toFixed(2), "%")
+      });
+    }, this.props.progressUpdateInterval));
+  }
+
+  render() {
+    var {
+      className,
+      src,
+      preload,
+      autoPlay,
+      crossOrigin,
+      mediaGroup,
+      showLoopControl,
+      showVolumeControl,
+      showSkipControls,
+      showJumpControls,
+      onClickPrevious,
+      onClickNext,
+      showDownloadProgress,
+      children,
+      style
+    } = this.props;
+    var {
+      currentTimePos,
+      currentVolumePos,
+      isPlaying,
+      isLoopEnabled,
+      downloadProgressArr
+    } = this.state;
+    var {
+      currentTime,
+      duration,
+      volume
+    } = this.audio;
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      role: "group",
+      tabIndex: 0,
+      "aria-label": "Audio Player",
+      className: "rhap_container ".concat(className),
+      onKeyDown: this.handleKeyDown,
+      ref: _ref5 => {
+        this.container = _ref5;
+      },
+      style: style
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("audio", {
+      src: src,
+      controls: false,
+      loop: isLoopEnabled,
+      autoPlay: autoPlay,
+      preload: preload,
+      crossOrigin: crossOrigin,
+      mediaGroup: mediaGroup,
+      ref: _ref => {
+        this.audio = _ref;
+      }
+    }, children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "rhap_progress-section"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      id: "rhap_current-time",
+      className: "rhap_time rhap_current-time"
+    }, this.getDisplayTimeBySeconds(currentTime)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "rhap_progress-container",
+      ref: _ref3 => {
+        this.progressBar = _ref3;
+      },
+      "aria-label": "Audio Progress Control",
+      "aria-describedby": "rhap_current-time",
+      role: "progressbar",
+      "aria-valuemin": 0,
+      "aria-valuemax": 100,
+      "aria-valuenow": Number(currentTimePos.split('%')[0]),
+      tabIndex: 0,
+      onMouseDown: this.handleMouseDownProgressBar,
+      onTouchStart: this.handleMouseDownProgressBar
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "rhap_progress-bar ".concat(showDownloadProgress ? 'rhap_progress-bar-show-download' : '')
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "rhap_progress-indicator",
+      style: {
+        left: currentTimePos
+      }
+    }), showDownloadProgress && downloadProgressArr.map((_ref2, i) => {
+      var {
+        left,
+        width
+      } = _ref2;
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        key: i,
+        className: "rhap_download-progress",
+        style: {
+          left,
+          width
+        }
+      });
+    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "rhap_time rhap_total-time"
+    }, this.getDisplayTimeBySeconds(duration))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "rhap_controls-section"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "rhap_additional-controls"
+    }, showLoopControl && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      "aria-label": isLoopEnabled ? 'Enable Loop' : 'Disable Loop',
+      className: "rhap_button-clear rhap_repeat-button",
+      onClick: this.handleClickLoopButton
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
+      icon: isLoopEnabled ? _iconify_icons_mdi_repeat__WEBPACK_IMPORTED_MODULE_10___default.a : _iconify_icons_mdi_repeat_off__WEBPACK_IMPORTED_MODULE_11___default.a
+    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "rhap_main-controls"
+    }, showSkipControls && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      "aria-label": "Previous",
+      className: "rhap_button-clear rhap_main-controls-button rhap_skip-button",
+      onClick: onClickPrevious
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
+      icon: _iconify_icons_mdi_skip_previous__WEBPACK_IMPORTED_MODULE_4___default.a
+    })), showJumpControls && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      "aria-label": "Rewind",
+      className: "rhap_button-clear rhap_main-controls-button rhap_rewind-button",
+      onClick: this.handleClickRewind
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
+      icon: _iconify_icons_mdi_rewind__WEBPACK_IMPORTED_MODULE_7___default.a
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      "aria-label": isPlaying ? 'Pause' : 'Play',
+      className: "rhap_button-clear rhap_main-controls-button rhap_play-pause-button",
+      onClick: this.togglePlay
+    }, isPlaying ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
+      icon: _iconify_icons_mdi_pause_circle__WEBPACK_IMPORTED_MODULE_3___default.a
+    }) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
+      icon: _iconify_icons_mdi_play_circle__WEBPACK_IMPORTED_MODULE_2___default.a
+    })), showJumpControls && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      "aria-label": "Forward",
+      className: "rhap_button-clear rhap_main-controls-button rhap_forward-button",
+      onClick: this.handleClickForward
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
+      icon: _iconify_icons_mdi_fast_forward__WEBPACK_IMPORTED_MODULE_6___default.a
+    })), showSkipControls && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      "aria-label": "Skip",
+      className: "rhap_button-clear rhap_main-controls-button rhap_skip-button",
+      onClick: onClickNext
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
+      icon: _iconify_icons_mdi_skip_next__WEBPACK_IMPORTED_MODULE_5___default.a
+    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "rhap_volume-controls"
+    }, showVolumeControl && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "rhap_volume-container"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      "aria-label": volume ? 'Mute' : 'Unmute',
+      onClick: this.handleClickVolumeButton,
+      className: "rhap_button-clear rhap_volume-button"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
+      icon: volume ? _iconify_icons_mdi_volume_high__WEBPACK_IMPORTED_MODULE_8___default.a : _iconify_icons_mdi_volume_mute__WEBPACK_IMPORTED_MODULE_9___default.a
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      ref: _ref4 => {
+        this.volumeControl = _ref4;
+      },
+      onMouseDown: this.handleVolumnControlMouseDown,
+      onTouchStart: this.handleVolumnControlMouseDown,
+      role: "progressbar",
+      "aria-label": "volume Control",
+      "aria-valuemin": 0,
+      "aria-valuemax": 100,
+      "aria-valuenow": Number((volume * 100).toFixed(0)),
+      tabIndex: 0,
+      className: "rhap_volume-bar-area"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "rhap_volume-bar"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "rhap_volume-indicator",
+      style: {
+        left: currentVolumePos
+      }
+    })))))));
+  }
+
+}
+
+_defineProperty(H5AudioPlayer, "defaultProps", {
+  autoPlay: false,
+  autoPlayAfterSrcChange: true,
+  listenInterval: 1000,
+  progressJumpStep: 5000,
+  volumeJumpStep: 0.1,
+  loop: false,
+  muted: false,
+  preload: 'auto',
+  progressUpdateInterval: 20,
+  volume: 1.0,
+  className: '',
+  showLoopControl: true,
+  showVolumeControl: true,
+  showJumpControls: true,
+  showSkipControls: false,
+  showDownloadProgress: true
+});
+
+_defineProperty(H5AudioPlayer, "addHeadingZero", num => num > 9 ? num.toString() : "0".concat(num));
+
+_defineProperty(H5AudioPlayer, "getPosX", event => {
+  var posX = 0;
+
+  if (event instanceof TouchEvent) {
+    posX = event.touches[0].pageX;
+  } else if (event instanceof MouseEvent) {
+    posX = event.pageX || event.clientX;
+  }
+
+  return posX;
+});
+
+_defineProperty(H5AudioPlayer, "throttle", (func, limit) => {
+  var inThrottle = false;
+  return function (arg) {
+    if (!inThrottle) {
+      func(arg);
+      inThrottle = true;
+      setTimeout(() => inThrottle = false, limit);
+    }
+  };
+});
+
+/* harmony default export */ __webpack_exports__["default"] = (H5AudioPlayer);
+
+/***/ }),
+
 /***/ "./node_modules/react-is/cjs/react-is.development.js":
 /*!***********************************************************!*\
   !*** ./node_modules/react-is/cjs/react-is.development.js ***!
@@ -85636,57 +87052,15 @@ const react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules
 const react_dom_1 = __importDefault(__webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js"));
 const react_redux_1 = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 const store_1 = __webpack_require__(/*! ./store */ "./resources/js/store/index.ts");
-const core_1 = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
 const styles_1 = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
 const theme_1 = __webpack_require__(/*! ./theme */ "./resources/js/theme.ts");
-const navbar_1 = __webpack_require__(/*! ./components/navbar */ "./resources/js/components/navbar.tsx");
-const footer_1 = __webpack_require__(/*! ./components/footer */ "./resources/js/components/footer.tsx");
-const content_1 = __webpack_require__(/*! ./components/content */ "./resources/js/components/content.tsx");
+const routes_1 = __webpack_require__(/*! ./routes */ "./resources/js/routes.tsx");
 const Application = () => {
     return (react_1.default.createElement(react_redux_1.Provider, { store: store_1.store },
         react_1.default.createElement(styles_1.ThemeProvider, { theme: theme_1.theme },
-            react_1.default.createElement(core_1.Grid, { container: true, direction: "column", style: { height: "100%" } },
-                react_1.default.createElement(core_1.Grid, { item: true },
-                    react_1.default.createElement(navbar_1.Navbar, null)),
-                react_1.default.createElement(core_1.Grid, { item: true, style: { flexGrow: 1 } },
-                    react_1.default.createElement(content_1.Content, null)),
-                react_1.default.createElement(core_1.Grid, { item: true },
-                    react_1.default.createElement(footer_1.Footer, null))))));
+            react_1.default.createElement(routes_1.Routes, null))));
 };
 react_dom_1.default.render(react_1.default.createElement(Application, null), document.getElementById("root"));
-
-
-/***/ }),
-
-/***/ "./resources/js/components/content.tsx":
-/*!*********************************************!*\
-  !*** ./resources/js/components/content.tsx ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-const react_router_dom_1 = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-const react_redux_1 = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-const login_1 = __webpack_require__(/*! ../pages/login */ "./resources/js/pages/login.tsx");
-const core_1 = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
-const side_bar_1 = __webpack_require__(/*! ./side-bar */ "./resources/js/components/side-bar.tsx");
-exports.Content = () => {
-    const showSidebar = react_redux_1.useSelector((state) => state.interface.showSideBar);
-    return (react_1.default.createElement(core_1.Grid, { container: true },
-        react_1.default.createElement(core_1.Grid, { item: true },
-            react_1.default.createElement(side_bar_1.SideBar, null)),
-        react_1.default.createElement(core_1.Grid, { item: true },
-            react_1.default.createElement(react_router_dom_1.BrowserRouter, null,
-                react_1.default.createElement(react_router_dom_1.Switch, null,
-                    react_1.default.createElement(react_router_dom_1.Route, { exact: true, path: "/", component: login_1.Login }))))));
-};
 
 
 /***/ }),
@@ -85706,17 +87080,41 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 const core_1 = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
-const styles_1 = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
-const useStyles = styles_1.makeStyles(theme => ({
-    appBar: {
-        zIndex: theme.zIndex.drawer + 1
-    }
-}));
+const player_1 = __webpack_require__(/*! ./player */ "./resources/js/components/player.tsx");
 exports.Footer = () => {
-    const classes = useStyles();
-    return (react_1.default.createElement(core_1.AppBar, { className: classes.appBar, position: "static" },
-        react_1.default.createElement(core_1.Toolbar, null,
-            react_1.default.createElement(core_1.Typography, { variant: "h6" }, "Footer"))));
+    return (react_1.default.createElement(core_1.AppBar, { color: "inherit", position: "static" },
+        react_1.default.createElement(core_1.Toolbar, { color: "inherit" },
+            react_1.default.createElement(player_1.Player, null))));
+};
+
+
+/***/ }),
+
+/***/ "./resources/js/components/layout.tsx":
+/*!********************************************!*\
+  !*** ./resources/js/components/layout.tsx ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+const core_1 = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
+const navbar_1 = __webpack_require__(/*! ./navbar */ "./resources/js/components/navbar.tsx");
+const footer_1 = __webpack_require__(/*! ./footer */ "./resources/js/components/footer.tsx");
+exports.Layout = ({ children }) => {
+    return (react_1.default.createElement(core_1.Grid, { container: true, direction: "column", style: { height: "100%" } },
+        react_1.default.createElement(core_1.Grid, { item: true },
+            react_1.default.createElement(navbar_1.Navbar, null)),
+        react_1.default.createElement(core_1.Grid, { item: true, style: { flexGrow: 1 } },
+            react_1.default.createElement(core_1.Container, { maxWidth: "md" }, children)),
+        react_1.default.createElement(core_1.Grid, { item: true },
+            react_1.default.createElement(footer_1.Footer, null))));
 };
 
 
@@ -85737,33 +87135,21 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 const core_1 = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
-const styles_1 = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
-const Menu_1 = __importDefault(__webpack_require__(/*! @material-ui/icons/Menu */ "./node_modules/@material-ui/icons/Menu.js"));
-const react_redux_1 = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-const actions_1 = __webpack_require__(/*! ../store/interface/actions */ "./resources/js/store/interface/actions.ts");
-const useStyles = styles_1.makeStyles(theme => ({
-    appBar: {
-        zIndex: theme.zIndex.drawer + 1
-    }
-}));
 exports.Navbar = () => {
-    const classes = useStyles();
-    const dispatch = react_redux_1.useDispatch();
-    return (react_1.default.createElement(core_1.AppBar, { className: classes.appBar, position: "static" },
+    return (react_1.default.createElement(core_1.AppBar, { position: "static" },
         react_1.default.createElement(core_1.Toolbar, null,
-            react_1.default.createElement(core_1.IconButton, { onClick: () => dispatch(actions_1.toggleShowSidebar()), edge: "start", color: "inherit", "aria-label": "menu" },
-                react_1.default.createElement(Menu_1.default, null)),
-            react_1.default.createElement(core_1.Typography, { variant: "h6" }, "Magnifique"),
-            react_1.default.createElement(core_1.Button, { color: "inherit" }, "Login"))));
+            react_1.default.createElement(core_1.Grid, { container: true, justify: "space-between" },
+                react_1.default.createElement(core_1.Typography, { variant: "h5" }, "Magnifique"),
+                react_1.default.createElement(core_1.Button, { color: "inherit" }, "Logout")))));
 };
 
 
 /***/ }),
 
-/***/ "./resources/js/components/side-bar.tsx":
-/*!**********************************************!*\
-  !*** ./resources/js/components/side-bar.tsx ***!
-  \**********************************************/
+/***/ "./resources/js/components/player.tsx":
+/*!********************************************!*\
+  !*** ./resources/js/components/player.tsx ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -85774,21 +87160,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-const react_redux_1 = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-const core_1 = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
-const styles_1 = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
-const useStyles = styles_1.makeStyles((theme) => styles_1.createStyles({
-    toolbar: theme.mixins.toolbar
-}));
-exports.SideBar = () => {
-    const classes = useStyles();
-    const showSidebar = react_redux_1.useSelector((state) => state.interface.showSideBar);
-    return (react_1.default.createElement(core_1.Drawer, { id: "side-bar", variant: "persistent", anchor: "left", open: showSidebar },
-        react_1.default.createElement("div", { className: classes.toolbar }),
-        react_1.default.createElement(core_1.List, null, ["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (react_1.default.createElement(core_1.ListItem, { button: true, key: text },
-            react_1.default.createElement(core_1.ListItemText, { primary: text }))))),
-        react_1.default.createElement("div", { className: classes.toolbar })));
-};
+const react_h5_audio_player_1 = __importDefault(__webpack_require__(/*! react-h5-audio-player */ "./node_modules/react-h5-audio-player/es/index.js"));
+exports.Player = () => (react_1.default.createElement(react_h5_audio_player_1.default, { autoPlay: true, showVolumeControl: false, showSkipControls: false, showLoopControl: false, src: "/moonlight.mp3", onPlay: e => console.log("onPlay") }));
 
 
 /***/ }),
@@ -85808,6 +87181,23 @@ __webpack_require__(/*! ./Application */ "./resources/js/Application.tsx");
 
 /***/ }),
 
+/***/ "./resources/js/pages/dashboard.tsx":
+/*!******************************************!*\
+  !*** ./resources/js/pages/dashboard.tsx ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Dashboard = () => {
+    return null;
+};
+
+
+/***/ }),
+
 /***/ "./resources/js/pages/login.tsx":
 /*!**************************************!*\
   !*** ./resources/js/pages/login.tsx ***!
@@ -85822,8 +87212,107 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+const core_1 = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
+const quotes_1 = __webpack_require__(/*! ../raw/quotes */ "./resources/js/raw/quotes.ts");
 exports.Login = () => {
-    return react_1.default.createElement("h1", null, "Test");
+    return (react_1.default.createElement(core_1.Grid, { container: true, justify: "center" },
+        react_1.default.createElement(core_1.Grid, { item: true },
+            react_1.default.createElement(core_1.Typography, { style: { textAlign: "center", marginTop: "2rem" }, variant: "h4" }, "Login"),
+            react_1.default.createElement(core_1.TextField, { fullWidth: true, label: "Username", style: { marginTop: "2rem" } }),
+            react_1.default.createElement(core_1.TextField, { fullWidth: true, label: "Password", style: { marginTop: "2rem" } }),
+            react_1.default.createElement(core_1.Typography, { style: { textAlign: "center", marginTop: "2rem" }, variant: "h6" }, quotes_1.quotes[Math.floor(Math.random() * quotes_1.quotes.length)]))));
+};
+
+
+/***/ }),
+
+/***/ "./resources/js/raw/quotes.ts":
+/*!************************************!*\
+  !*** ./resources/js/raw/quotes.ts ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.quotes = [
+    "“Music is like a dream. One that I cannot hear.” ―  Ludwig van Beethoven",
+    "“Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything.” ― Plato",
+    "“There are two means of refuge from the miseries of life: music and cats.” ― Albert Schweitzer",
+    "“Music is the shorthand of emotion.” ― Leo Tolstoy",
+    "“If music be the food of love, play on, Give me excess of it; that surfeiting, The appetite may sicken, and so die.” ― William Shakespeare",
+    "“After silence, that which comes nearest to expressing the inexpressible is music.” ― Aldous Huxley",
+    "“Where words fail, music speaks.” ― Hans Christian Andersen",
+    "“Music expresses that which cannot be said and on which it is impossible to be silent.” ― Victor Hugo",
+    "“We are the music makers, and we are the dreamers of dreams.” ― Arthur O’Shaughnessy",
+    "“Music produces a kind of pleasure which human nature cannot do without.” ― Confucius",
+    "“Music, once admitted to the soul, becomes a sort of spirit, and never dies.” ― Edward Bulwer-Lytton",
+    "“A painter paints pictures on canvas. But musicians paint their pictures on silence.” ― Leopold Stokowski",
+    "“Music . . . can name the unnameable and communicate the unknowable.” ― Leonard Bernstein",
+    "“Music is the literature of the heart; it commences where speech ends.” ― Alphonse de Lamartine",
+    "“The music is not in the notes, but in the silence between.”  ― Wolfgang Amadeus Mozart",
+    "“Music makes one feel so romantic – at least it always gets on one’s nerves – which is the same thing nowadays.”― Oscar Wilde",
+    "“Music is the strongest form of magic.” ― Marilyn Manson",
+    "“Music is the wine that fills the cup of silence.” ― Robert Fripp",
+    "“Music is the language of the spirit. It opens the secret of life bringing peace, abolishing strife.” ― Kahlil Gibran",
+    "“Music in the soul can be heard by the universe.” ― Lao Tzu",
+    "“Music acts like a magic key, to which the most tightly closed heart opens.” ― Maria Augusta von Trapp",
+    "“Music… will help dissolve your perplexities and purify your character and sensibilities, and in time of care and sorrow, will keep a fountain of joy alive in you.” ― Dietrich Bonhoeffer",
+    "“Music is an outburst of the soul.” ― Frederick Delius",
+    "“Music produces a kind of pleasure which human nature cannot do without.” ― Confucius",
+    "“It is always fatal to have music or poetry interrupted.” ― George Eliot",
+    "“My heart, which is so full to overflowing, has often been solaced and refreshed by music when sick and weary.” ― Martin Luther",
+    "“No matter how corrupt, greedy, and heartless our government, our corporations, our media, and our religious & charitable institutions may become, the music will still be wonderful.” ― Kurt Vonnegut",
+    "“Life seems to go on without effort when I am filled with music.” ― George Eliot",
+    "“Music is an agreeable harmony for the honor of God and the permissible delights of the soul.” ― Johann Sebastian Bach",
+    "“If music be the food of love, play on.” ― William Shakespeare",
+    "“I see my life in terms of music.” ― Albert Einstein",
+    "“To me, the greatest pleasure of writing is not what it’s about, but the music the words make.” ― Truman Capote",
+    "“Musical innovation is full of danger to the State, for when modes of music change, the fundamental laws of the State always change with them.” ― Plato",
+    "“Music could ache and hurt, that beautiful music was a place a suffering man could hide.” ― Pat Conroy",
+    "“If I cannot fly, let me sing.” ― Stephen Sondheim",
+    "“Music brings a warm glow to my vision, thawing mind and muscle from their endless wintering.” ― Haruki Murakami",
+    "“Most people die with their music still locked up inside them.” ― Benjamin Disraeli",
+    "“Music is the moonlight in the gloomy night of life.” ― Jean Paul Friedrich Richter",
+    "“There is nothing more to be said or to be done tonight, so hand me over my violin and let us try to forget for half an hour the miserable weather and the still more miserable ways of our fellowmen.” ― Arthur Conan Doyle",
+    "“The man that hath no music in himself, Nor is not moved with concord of sweet sounds, Is fit for treasons, stratagems, and spoils; The motions of his spirit are dull as night, And his affections dark as Erebus. Let no such man be trusted. Mark the music.” ― William Shakespeare",
+    "“Music, when soft voices die, vibrates in the memory.” ― Percy Bysshe Shelley",
+    "“When you play, never mind who listens to you.” ― Robert Schumann",
+    "“Music, my rampart and my only one.” ― Edna St. Vincent Millay",
+    "“This will be our reply to violence: to make music more intensely, more beautifully, more devotedly than ever before.” ― Leonard Bernstein",
+    "“Music is what tell us that the human race is greater than we realize.” ― Napoléon Bonaparte",
+    "“If you were music, I would listen to you ceaselessly, and my low spirits would brighten up.” ― Anna Akhmatova",
+    "“I would rather write 10,000 notes than a single letter of the alphabet.” ― Ludwig van Beethoven"
+];
+
+
+/***/ }),
+
+/***/ "./resources/js/routes.tsx":
+/*!*********************************!*\
+  !*** ./resources/js/routes.tsx ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+const react_router_dom_1 = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+const layout_1 = __webpack_require__(/*! ./components/layout */ "./resources/js/components/layout.tsx");
+const login_1 = __webpack_require__(/*! ./pages/login */ "./resources/js/pages/login.tsx");
+const dashboard_1 = __webpack_require__(/*! ./pages/dashboard */ "./resources/js/pages/dashboard.tsx");
+exports.Routes = () => {
+    return (react_1.default.createElement(layout_1.Layout, null,
+        react_1.default.createElement(react_router_dom_1.BrowserRouter, null,
+            react_1.default.createElement(react_router_dom_1.Switch, null,
+                react_1.default.createElement(react_router_dom_1.Route, { exact: true, path: "/", component: login_1.Login }),
+                react_1.default.createElement(react_router_dom_1.Route, { exact: true, path: "/dashboard", component: dashboard_1.Dashboard })))));
 };
 
 
@@ -85852,24 +87341,6 @@ const rootReducer = redux_1.combineReducers({
 const middlewares = [redux_thunk_1.default];
 const middleWareEnhancer = redux_1.applyMiddleware(...middlewares);
 exports.store = redux_1.createStore(rootReducer, redux_devtools_extension_1.composeWithDevTools(middleWareEnhancer));
-
-
-/***/ }),
-
-/***/ "./resources/js/store/interface/actions.ts":
-/*!*************************************************!*\
-  !*** ./resources/js/store/interface/actions.ts ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const types_1 = __webpack_require__(/*! ./types */ "./resources/js/store/interface/types.ts");
-exports.toggleShowSidebar = () => ({
-    type: types_1.TOGGLE_SIDEBAR
-});
 
 
 /***/ }),
@@ -85929,11 +87400,14 @@ const styles_1 = __webpack_require__(/*! @material-ui/core/styles */ "./node_mod
 exports.theme = styles_1.createMuiTheme({
     palette: {
         primary: {
-            main: "#33b5ff"
+            main: "#3d5afe"
         },
         secondary: {
-            main: "#faec59"
+            main: "#ffc107"
         }
+    },
+    typography: {
+        fontFamily: ["'Crimson Text'", "serif"].join(",")
     }
 });
 

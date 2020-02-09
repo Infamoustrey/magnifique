@@ -1,46 +1,16 @@
 import React from "react";
 
-import {
-  AppBar,
-  Toolbar,
-  IconButton,
-  Typography,
-  Button
-} from "@material-ui/core";
-
-import { makeStyles } from "@material-ui/core/styles";
-
-import MenuItemIcon from "@material-ui/icons/Menu";
-
-import { useDispatch } from "react-redux";
-
-import { toggleShowSidebar } from "../store/interface/actions";
-
-const useStyles = makeStyles(theme => ({
-  appBar: {
-    zIndex: theme.zIndex.drawer + 1
-  }
-}));
+import { AppBar, Toolbar, Typography, Button, Grid } from "@material-ui/core";
 
 export const Navbar = () => {
-  const classes = useStyles();
-
-  const dispatch = useDispatch();
-
-  return (
-    <AppBar className={classes.appBar} position="static">
-      <Toolbar>
-        <IconButton
-          onClick={() => dispatch(toggleShowSidebar())}
-          edge="start"
-          color="inherit"
-          aria-label="menu"
-        >
-          <MenuItemIcon />
-        </IconButton>
-        <Typography variant="h6">Magnifique</Typography>
-        <Button color="inherit">Login</Button>
-      </Toolbar>
-    </AppBar>
-  );
+    return (
+        <AppBar position="static">
+            <Toolbar>
+                <Grid container justify="space-between">
+                    <Typography variant="h5">Magnifique</Typography>
+                    <Button color="inherit">Logout</Button>
+                </Grid>
+            </Toolbar>
+        </AppBar>
+    );
 };

@@ -6,3 +6,10 @@ body,
     width: 100%;
     height: 100%;
 }
+
+$rhap_theme-color: #3d5afe !default;
+$rhap_background-color: #fff !default;
+$rhap_bar-color: #e4e4e4 !default;
+$rhap_time-color: #333 !default;
+$rhap_font-family: "Crimson Text", serif;
+@import "~react-h5-audio-player/src/styles.scss";

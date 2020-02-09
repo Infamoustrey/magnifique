@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title></title>
 
+
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
 </head>
